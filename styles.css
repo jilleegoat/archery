@@ -1,21 +1,28 @@
 p {
   color: white;
 }
+.navigation-classes {
+}
+h1 {
+  color: white;
+}
 .navigation {
   box-sizing: content-box;
   position: fixed;
   padding-right: 0%;
   border: 10px;
   border-color: #03a3df;
-  border-width: thin;
+  border-width: medium;
   margin: 0px;
   background-color: #474747;
+  align-content: center;
+  text-align: center;
   }
 .rightposition {
   box-sizing: content-box;
-  width: 80%;
+  width: 85%;
+  padding-top: 2%;
   padding-left: 10%;
-  padding-right: 10%;
   border: 10px;
   margin: 10px;
   background-color: #474747;
@@ -24,6 +31,8 @@ body{
 box-sizing: content-box;
 width: 100%;
 background-color: #474747;
+font-family: sans-serif;
+color: white;
 }
 .header{
   box-sizing: content-box;
@@ -35,8 +44,41 @@ background-color: #474747;
   margin: 10px;
   background-color: #474747;
   }
-  .footer {
-    box-sizing: content-box;
-    height: 10%;
-    width: 100%;
+.flex-container {
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-row: 1;
+  column-count: 4;
+  text-align: center;
   }
+.subheader {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.teambio {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: sans-serif;
+  }
+.coloredfont {
+  font-size: 18px;
+  color: #ecb722;
+  }
+  /* unvisited link */
+        a:link {
+          color: white;
+        }
+        /* visited link */
+        a:visited {
+          color: #03a3df;
+        }
+        /* mouse over link */
+        a:hover {
+          color: #03a3df;
+        }
+        /* selected link */
+        a:active {
+          color: white;
+        }
