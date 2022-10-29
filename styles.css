@@ -6,6 +6,10 @@ p {
 h1 {
   color: white;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 .navigation {
   box-sizing: content-box;
   position: fixed;
