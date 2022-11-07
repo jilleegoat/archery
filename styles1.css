@@ -7,7 +7,7 @@ h1 {
   font-family: sans-serif;
 }
 .centered {
-  color: #03a3df;
+  color: #26C2FC;
   font-size: 20px;
 }
 .grid-container {
@@ -20,6 +20,7 @@ h1 {
 }
 /* Navigation Sidebar*/
 .grid-item-1 {
+  padding: .5rem;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -52,7 +53,7 @@ h1 {
   grid-row-end: 2;
   font-family: sans-serif;
   font-size: 16px;
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 5%;
 }
 .grid-item-4 {
@@ -60,7 +61,7 @@ h1 {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 3;
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 5%;
 }
 .grid-item-5 {
@@ -83,7 +84,7 @@ h1 {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
-  padding-left: 10%;
+  padding-left: 15%;
   padding-right: 5%;
 }
 .footer {
@@ -107,11 +108,11 @@ h1 {
       }
       /* visited link */
       a:visited {
-        color: #03a3df
+        color: #ecb722;
       }
       /* mouse over link */
       a:hover {
-        color: #03a3df
+        color: #26C2FC
       }
       /* selected link */
       a:active {
@@ -126,11 +127,11 @@ h1 {
       margin-bottom: 10px;
     }
     .leftcontainer {
-      width: 10%;
+      width: 15%;
       height: auto;
     }
     .rightcontainer {
-      width: 90%;
+      width: 85%;
       height: auto;
 
     }
@@ -139,10 +140,9 @@ h1 {
     .icon {
       padding: 10px;
       background: #03a3df;
-      color: white;
       min-width: 50px;
       text-align: center;
-    }
+      }
 
     /* Style the input fields */
     .input-field {
@@ -158,7 +158,8 @@ h1 {
     /* Set a style for the submit button */
     .btn {
       background-color: #ecb722;
-      color: white;
+      color: #4E4E4E;
+      font-weight: bold;
       padding: 15px 20px;
       border: none;
       cursor: pointer;
@@ -169,3 +170,36 @@ h1 {
     .btn:hover {
       opacity: 1;
     }
+/*A11Y*/
+
+/*Fonts changed from White on #ecb722 to #4E4E4E */
+/* Client blue #03A3DF changed to #26C2FC */
+
+.skip-main {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+/* code that is here, until the first @media block, will apply to any screen size */
+#somethingorother {
+width: 800px ;
+}
+
+@media screen and (max-width: 320px) {
+/* comes into effect for screens less than or equal to 320 pixels */
+#somethingorother {
+  width: 120px ;
+}
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+/* comes into effect for screens between 321 and 480 pixels (inclusive) */
+#somethingorother {
+  width: 320px ;
+}
+}
+@media screen and (min-width: 481px) {
+/* comes into effect for screens larger than or equal to 481 pixels */
+#somethingorother {
+  width: 480px ;
+}
+}
