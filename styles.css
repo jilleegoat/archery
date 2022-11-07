@@ -18,6 +18,7 @@ img {
   text-align: center;
   padding: .5rem;
   align-content: center;
+  max-width: 10%;
   }
 .rightposition {
   box-sizing: content-box;
