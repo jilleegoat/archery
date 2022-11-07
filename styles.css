@@ -8,7 +8,7 @@ h1 {
   color: white;
 }
 img {
-  padding: 1rem;
+  padding: .5rem;
 }
 .navigation {
   box-sizing: content-box;
@@ -16,7 +16,7 @@ img {
   background-color: #474747;
   align-content: center;
   text-align: center;
-  padding: 1rem;
+  padding: .5rem;
   align-content: center;
   }
 .rightposition {
